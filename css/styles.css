@@ -1,5 +1,5 @@
 
-/*first-send*/
+/*finalized*/
 
 :root{
     /*variables*/
@@ -307,8 +307,13 @@ img {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
+
+.team-list .team-item {
+   
+    padding-bottom: 30px;
+  }
 
 .about-list {
     display: flex;
@@ -373,14 +378,16 @@ img {
   }
   .contact.link:hover,
   .address .link:hover {
-    color: var(--brand-white-color);
+    color: var(--whitecolor);
   }
-
-  .portfolio-filter {
+.footer-mail:hover,.footer-tel:hover{
+    color:var(--whitecolor);
+}
+  /* .portfolio-filter {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
 
   .portfolio-filter .btn {
     
@@ -407,6 +414,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
 }
 .project-info {
   padding: 20px 24px;
